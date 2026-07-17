@@ -127,6 +127,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libbauthserver \
+    libbauthtzcommon \
+    libegis_fp_normal_sensor_test \
+    libgf_in_system_lib \
+    libqfp_sensortest \
+    libsynaFpSensorTestNwd \
     sensors.grip \
     sensors.ssc \
     com.qti.eeprom.sec2qcconversion \
@@ -194,9 +199,4 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.swmf \
     camera.qcom \
     com.qti.chi.override \
-    lights.lito \
-    libbauthtzcommon \
-    libegis_fp_normal_sensor_test \
-    libgf_in_system_lib \
-    libqfp_sensortest \
-    libsynaFpSensorTestNwd
+    lights.lito
