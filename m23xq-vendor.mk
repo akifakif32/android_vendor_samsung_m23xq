@@ -200,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/firmware/multical.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/multical.bin \
     vendor/samsung/m23xq/proprietary/vendor/firmware/nfc/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/libpn557_fw.so \
     vendor/samsung/m23xq/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
-    vendor/samsung/m23xq/proprietary/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
     vendor/samsung/m23xq/proprietary/vendor/firmware/wlan/qca_cld/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/bdwlan.bin \
     vendor/samsung/m23xq/proprietary/vendor/firmware/wlan/qca_cld/bdwlan.bin1:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/bdwlan.bin1 \
     vendor/samsung/m23xq/proprietary/vendor/firmware/wlan/qca_cld/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/regdb.bin \
