@@ -232,7 +232,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
-    fingerprint.default \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
@@ -252,8 +251,6 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsprpc \
     libbatching \
-    libbauthserver \
-    libbauthtzcommon \
     libbluetooth_audio_session_qti \
     libbthost_if \
     libc2d30_bltlib \
@@ -269,12 +266,10 @@ PRODUCT_PACKAGES += \
     libdrmtime \
     libdsi_netctrl \
     libdsutils \
-    libegis_fp_normal_sensor_test \
     libfastcvdsp_stub \
     libfastcvopt \
     libfloatingfeature \
     libgeofencing \
-    libgf_in_system_lib \
     libgnss \
     libgps.utils \
     libgpudataproducer \
@@ -310,7 +305,6 @@ PRODUCT_PACKAGES += \
     libqcmaputils \
     libqdi \
     libqdp \
-    libqfp_sensortest \
     libqisl \
     libqmi \
     libqmi_cci \
@@ -340,7 +334,6 @@ PRODUCT_PACKAGES += \
     libspatializerparamstorage \
     libssc \
     libssd \
-    libsynaFpSensorTestNwd \
     libsynergy_loc_api \
     libsystem_health_mon \
     libtime_genoff \
@@ -480,6 +473,7 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     camera.unihal.default \
     com.qti.chi.override \
+    fingerprint.default \
     gatekeeper.mdfpp \
     lights.lito \
     vendor.qti.hardware.qteeconnector@1.0-impl \
@@ -508,6 +502,8 @@ PRODUCT_PACKAGES += \
     libarcsoft_object_tracking \
     libarcsoft_picportrait_video \
     libarcsoft_super_night_raw \
+    libbauthserver \
+    libbauthtzcommon \
     libbeautyshot.arcsoft \
     libbitmlengine \
     libc++_shared \
@@ -540,12 +536,14 @@ PRODUCT_PACKAGES += \
     libdisplayskuutils \
     libdpps \
     libdualcam_refocus_video \
+    libegis_fp_normal_sensor_test \
     libengmode_client \
     libexifa.camera.samsung \
     libface_landmark.arcsoft \
     libfocuspeaking \
     libfocuspeaking_interface \
     libgarden \
+    libgf_in_system_lib \
     libgnsspps \
     libhand_interaction.uniplugin@1.0 \
     libhandgesture.arcsoft \
@@ -583,6 +581,7 @@ PRODUCT_PACKAGES += \
     libpadm \
     libqcwrappercommon \
     libqdma_file_agent \
+    libqfp_sensortest \
     libqseed3 \
     libril_sem \
     libsavscmn \
@@ -621,6 +620,7 @@ PRODUCT_PACKAGES += \
     libstork_shared \
     libsuper_night_interface \
     libswregistrationalgo \
+    libsynaFpSensorTestNwd \
     libsysmon_cdsp_skel \
     libthermalclient \
     libtinyxml2_1 \
